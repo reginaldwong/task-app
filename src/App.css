@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
 
 .App {
   width: 100vw;
@@ -7,12 +7,12 @@
   flex-direction: column;
   align-items: center;
   background: linear-gradient(#ffecd2, #fcb69f);
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .heading {
   font-size: 40px;
-  margin: 30px 0;
+  margin: 30px 0px;
   color: #000000;
   z-index: 1;
   text-align: center;

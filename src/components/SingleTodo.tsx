@@ -3,10 +3,6 @@ import { Todo } from "./model";
 import { AiFillEdit, AiFillDelete  } from 'react-icons/ai';
 import { MdDone } from 'react-icons/md';
 import './styles.css';
-import TodoList from './TodoList';
-import { tokenToString } from 'typescript';
-
-
 
 type Props = {
     todo: Todo,
@@ -62,10 +58,8 @@ const SingleTodo = ({ todo, todos, setTodos, }: Props) => {
                     className="icon" 
                     onClick={() => {
                         if (!edit && !todo.isDone) {
-                            setEdit(!edit);
-                        }
-                    }}>
-
+                            setEdit(!edit)}
+                }}>
                     <AiFillEdit />
                 </span>
                 <span className="icon" onClick={() => handleDelete(todo.id)}>
